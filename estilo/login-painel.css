@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans";
+}
+
+html,body{
+    height: 100%;
+    background: #000000;
+}
+.box{
+    padding: 20px;
+    background: #fdfdfd94;
+}
+
+.box-login h3{
+    text-align: center;
+    font-size: 80px;
+    margin: 10px 0;
+}
+
+
+.box-login h2{
+    text-align: center;
+    font-size: 19px;
+    margin: 10px 0;
+}
+
+.box-login{
+    border-radius: 10px;
+    max-width: 350px;
+    width: 95%;
+    padding: 25px 0%;
+    background: #b2626d;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.box-login input{
+    width: 100%;
+    height: 40px;
+    border: 1px solid #ccc;
+    padding-left: 8px;
+    margin-top: 8px;
+}
+
+.box-login input[type=submit]{
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 16px;
+    background: #70afcc;
+    color: #ffffff;
+    border: 0;
+}
+
+/*erro-box PAINEL*/
+.erro-box{
+    width: 100%;
+    padding: 8px 2%;
+    text-align: center;
+    background: #f72529;
+    color: white;
+    font-size: 16px;
+}
+
+.erro-box i{
+    padding: 8px 2%;
+
+}
+
+.form-group-login{
+    float: right;
+}
+
+.form-group-login label{
+    font-size: 13px;
+    color: #726c6c;
+    padding-right: 5px;
+}
+
+.form-group-login input{
+    width: 15px;
+    height: 15px;
+}

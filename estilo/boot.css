@@ -1,0 +1,347 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans";
+}
+
+/** Boot CSS **/
+.center{
+     max-width: 1280px;
+     margin: 0 auto;
+     padding: 0 2px;
+ }
+.w33{
+    width: 33.3%;
+    padding: 10px;
+}
+.w50{
+     width: 50%;
+ }
+
+.left{
+     float: left;
+ }
+
+.right{
+     float: right;
+ }
+
+ .clear{
+     clear: both;
+ }
+
+/** estilo site **/
+header{
+    background: #1B304C;
+    padding: 10px 0 10px 0;
+}
+
+.logo {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.logo a{
+    color: #ffffff;
+}
+
+.logo a:hover{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.mobile{
+    display: none;
+}
+
+.desktop ul{
+    position: relative;
+    top: 20px;
+    list-style-type: none;
+    color: #ffffff;
+}
+.desktop li{
+    padding: 0 15px;
+    display: inline-block;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+.desktop li:hover{
+    color: #ffffff;
+}
+
+.desktop i{
+    color: #ff0000;
+}
+
+.desktop a:hover{
+    border-bottom:3px solid #ffffff;
+    color: #ffffff;
+    text-decoration: none;
+}
+.desktop a{
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn-login a:hover{
+    text-decoration: none;
+    border-bottom: none;
+}
+
+.banner-container{
+    width: 100%;
+    height: 600px;
+    position: relative;
+}
+
+.container-principal{
+    height: 100%;
+}
+
+.banner-single{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+.overlay{
+    background-color: rgba(51,51,51,0.5);
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+
+}
+.servicos-container{
+    height: 300px;
+}
+.servicos{
+    padding: 45px 0;
+    background: #ffffff;
+}
+.servicos .title{
+    text-align: center;
+    font-size: 30px;
+    color: #87B0B2 !important;
+}
+
+.info-servicos{
+    margin: 20px 0;
+    padding: 30px;
+    text-align: center;
+}
+
+.servicos h2{
+    color: #1B304C !important;
+    font-size: 50px;
+    text-align: center;
+}
+
+.servicos h3{
+    color: #1B304C !important;
+    font-size: 15px;
+    text-align: center;
+}
+
+.servicos a{
+    text-decoration: none;
+    font-size: 15px;
+    margin-top: 10px;
+    color: #000000;
+}
+.servicos a:hover{
+    text-decoration: none;
+    font-size: 15px;
+    margin-top: 10px;
+    color: #000000;
+}
+
+.extras{
+    padding: 30px 0;
+    background: #97B8E5;
+}
+.noticia-container,.servicos-container{
+    padding: 0 25px;
+}
+
+.noticia-container .title{
+    color: #1B304C;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+.depoimentos-sigle{
+    padding: 10px 0;
+    border-bottom: 2px solid #000000;
+}
+.titulo-noticia{
+    color: #000000;
+    font-weight: bold;
+    font-size: 15px;
+    margin-bottom: 7px;
+    text-align: justify;
+}
+.titulo-noticia a{
+    text-decoration: none;
+    color: #000000;
+}
+.titulo-noticia a:hover{
+    color: #BC765F;
+    text-decoration: none;
+}
+.titulo-noticia span{
+    color: #000000;
+    background: #BC765F;
+    margin-right: 5px;
+    padding: 16px 10px 16px 10px;
+    font-size: 11px;
+    font-weight: bold; 
+}
+
+footer{
+    background: #1B304C;
+    padding: 50px 0;
+    width: 100%;
+}
+
+footer.fixed{
+    position: fixed;
+    bottom: 0;
+}
+
+footer p{
+    color: #ffffff;
+    text-align: center;
+}
+
+.erro-404 {
+    padding-bottom: 500px ;
+}
+
+.erro-404 img{
+    width: 300px;
+}
+
+.erro-404 h2{
+    text-align: center;
+    font-size: 45px;
+}
+
+.bullets{
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.bullets span{
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin: 0 10px; 
+    border-radius: 50%;
+    cursor: pointer;
+    background: #ccc;
+}
+
+.bullets span.active-slider{
+    background: #557996;
+}
+
+@media screen and (max-width: 768px){
+    .w50{
+        padding: 20px;
+        width: 100%;
+    }
+    .w33{
+        padding: 20px;
+        width: 100%;
+    }
+    .info-servicos{
+        margin: 0;
+        padding: 20px 20px;
+    }
+    .banner-container{
+        width: 100%;
+        height: 200px;
+        background-size: cover;
+        position: relative;
+    }
+    .banner-single{
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background-size: cover;
+        background-position: center;
+    }
+}
+
+@media screen and (max-width: 700px){
+    .logo{
+        color: #e5e9ec;
+        font-size: 19px;
+        font-weight: bold;
+    }
+    .desktop{
+        display: none;
+    }
+    .mobile{
+        display: block;
+    }
+    .botao-menu-mobile{
+        color: #ffffff;
+        cursor: pointer;
+        font-size: 25px;
+        margin-right: 10px;
+        margin-top: 0x;
+    }
+    .mobile ul{
+        display: none;
+        left: 0;
+        position: absolute;
+        top: 58px;
+        text-align: center;
+        width: 100%;
+        z-index: 3;
+    }
+    .mobile li{
+        display: block;
+        background: #ffffff;
+        border-bottom: 1px solid #ccc;
+        font-size: 17px;
+        padding: 8px 0;
+    }
+    .mobile a{
+        color: #000000;
+        display: block;
+        font-weight: bold;
+        text-decoration: none;
+    }
+    .banner-container{
+        width: 100%;
+        height: 200px;
+        background-size: cover;
+        position: relative;
+    }
+    .banner-single{
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background-size: cover;
+        background-position: center;
+    }
+    footer p{
+        font-size: 13px;
+    }
+}

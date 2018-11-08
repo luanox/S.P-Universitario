@@ -1,0 +1,130 @@
+
+.requerimento{
+    background: #97B8E5;
+    padding: 10px;
+    height: 100%;
+}
+
+.servicos-requerimento{
+    background: #dcdedf;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.info-requerimento{
+    margin: 30px 0;
+}
+
+.form-group label{
+    font-size: 17px;
+    font-weight: 300;
+    color: #000000;
+}
+
+.form-group{
+    margin: 15px 0;
+}
+
+form input[type=text]{
+    border: 1px solid #000000;
+    margin-top: 8px;
+    font-size: 16px;
+    color: #000000;
+    width: 100%;
+    height: 40px;
+    padding-left: 8px;
+}
+form select{
+    border: 1px solid #000000;
+    margin-top: 8px;
+    font-size: 16px;
+    color: #000000;
+    width: 100%;
+    height: 40px;
+    padding-left: 8px;
+}
+form input[type=password]{
+    border: 1px solid #000000;
+    margin-top: 8px;
+    font-size: 16px;
+    color: #000000;
+    width: 100%;
+    height: 40px;
+    padding-left: 8px;
+}
+
+form input[type=file]{
+    border: 1px solid #000000;
+    width: 100%;
+    padding: 8px;
+}
+
+form input[type=submit]{
+    width: 100px;
+    height: 40px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 16px;
+    background: #15a380;
+    color: #ffffff;
+    border: 0;
+}
+
+.login-user{
+    background: #ffffff;
+    padding: 160px;
+    height: 100%;
+}
+
+.int{
+    display: none;
+}
+
+.cadastro{
+    background: #ffffff;
+    border-radius: 8px;
+    margin-top: 150px;
+}
+
+.login { 
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin: -150px 0 0 -150px;
+	width:300px;
+	height:300px;
+}
+.login h1 { 
+    color: #97B8E5; 
+    text-shadow: 0 0 10px rgba(0,0,0,0.3); 
+    letter-spacing:1px; 
+    text-align:center; 
+}
+.login a{
+    color: #ffffff;
+}
+.login a:hover{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.login input { 
+	width: 100%; 
+	margin-bottom: 10px; 
+	background: rgba(0,0,0,0.3);
+	border: none;
+	outline: none;
+	padding: 10px;
+	font-size: 13px;
+	color: #fff;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
+	border: 1px solid rgba(0,0,0,0.3);
+	border-radius: 4px;
+	box-shadow: inset 0 -5px 45px rgba(100,100,100,0.2), 0 1px 1px rgba(255,255,255,0.2);
+	-webkit-transition: box-shadow .5s ease;
+	-moz-transition: box-shadow .5s ease;
+	-o-transition: box-shadow .5s ease;
+	-ms-transition: box-shadow .5s ease;
+	transition: box-shadow .5s ease;
+}
+.login input:focus { box-shadow: inset 0 -5px 45px rgba(100,100,100,0.4), 0 1px 1px rgba(255,255,255,0.2); }
